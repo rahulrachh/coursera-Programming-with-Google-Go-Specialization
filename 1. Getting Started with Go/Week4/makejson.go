@@ -1,19 +1,30 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 )
 
 func main() {
 	var name string
 	fmt.Printf("Enter your name: ")
-	fmt.Scan(&name)
+	readsname := bufio.NewReader(os.Stdin)
+	name, err1 := readsname.ReadString('\n')
+	if err1 != nil {
+		println("Errror")
+	}
 
 	var addr string
 	fmt.Printf("Enter your address: ")
-	fmt.Scan(&addr)
+	readsaddr := bufio.NewReader(os.Stdin)
+	addr, err2 := readsaddr.ReadString('\n')
+
+	if err2 != nil {
+		println("Errror")
+	}
 
 	var idMap map[string]string
 	idMap = make(map[string]string)
