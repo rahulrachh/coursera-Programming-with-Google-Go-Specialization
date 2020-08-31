@@ -6,7 +6,7 @@
 
 [This](https://www.coursera.org/specializations/google-golang) is a Coursera specialization in GoLang. Individuals with proficiency in any one programming language are advisable to take this course. It is a 3 course specialization.
 
-This specialization is for programmers that want to understand the Basics of GoLang and its important feature, Concurrency. It is being taught by [Ian Harris](https://www.ics.uci.edu/~harris/)
+This specialization is for programmers that want to understand GoLang and its most important feature, Concurrency. It is being taught by [Ian Harris](https://www.ics.uci.edu/~harris/)
 
 This specialization consists of 3 courses
 1. [Getting Started with Go](https://www.coursera.org/learn/golang-getting-started)
